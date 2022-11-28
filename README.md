@@ -20,6 +20,6 @@ a target mask. In each pair, the left image is the input, and the right one is t
 For each input, we fix the mask and start the synthesis from three different starting points while observing the boundaries specified by the target mask and generating realistic images, MAGIC keeps specificity and generates diverse results.
 ___
 
-This repo is in its initial stage, welcome bug reports to rouhseda@usc.edu
+This repository is in its initial stage, please report bugs to rouhseda@usc.edu
 
 Thanks~
