@@ -1,9 +1,10 @@
 # MAGIC: Mask-Guided Image Synthesis by Inverting a Quasi-Robust Classifier
 
-This repository contains code for the following paper:
+Official Pytorch implementation of the following paper:
 
 + Rouhsedaghat M, Monajatipoor M, Kuo CC, Masi I. [MAGIC: Mask-Guided Image Synthesis by Inverting a Quasi-Robust Classifier](https://arxiv.org/abs/2209.11549). AAAI23
 
+___
 
 <p align="center">
   <img src="1.png" width="680" >
@@ -17,6 +18,7 @@ a target mask. In each pair, the left image is the input, and the right one is t
 </p>
 
 For each input, we fix the mask and start the synthesis from three different starting points while observing the boundaries specified by the target mask and generating realistic images, MAGIC keeps specificity and generates diverse results.
+___
 
 This repo is in its initial stage, welcome bug reports to rouhseda@usc.edu
 
