@@ -1,6 +1,6 @@
 # MAGIC: Mask-Guided Image Synthesis by Inverting a Quasi-Robust Classifier
 
-Official Pytorch implementation of the following paper:
+Official Pytorch implementation of the following paper (will be uploaded soon):
 
 + Rouhsedaghat M, Monajatipoor M, Kuo CC, Masi I. [MAGIC: Mask-Guided Image Synthesis by Inverting a Quasi-Robust Classifier](https://arxiv.org/abs/2209.11549). AAAI23
 
