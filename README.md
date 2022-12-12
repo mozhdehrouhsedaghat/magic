@@ -37,7 +37,7 @@ python train.py --gpu 5 --save_prefix results_ --mode synthesis --target_prefix 
 `
 
 
-
+___
 This repository is in its initial stage, please report bugs to rouhseda@usc.edu
 
 Thanks~
