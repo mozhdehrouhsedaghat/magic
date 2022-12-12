@@ -1,3 +1,4 @@
+![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 # MAGIC: Mask-Guided Image Synthesis by Inverting a Quasi-Robust Classifier
 
 Official Pytorch implementation of the following paper (will be uploaded soon):
