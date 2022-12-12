@@ -21,6 +21,23 @@ a target mask. In each pair, the left image is the input, and the right one is t
 For each input, we fix the mask and start the synthesis from three different starting points while observing the boundaries specified by the target mask and generating realistic images, MAGIC keeps specificity and generates diverse results.
 ___
 
+### Requirements
+
+The code is tested in a vertual environment with Python 3.6 and pytorch 1.3.1 on NVIDIA NVIDIA Quadro M600 GPU.
+The version of all other required libraries is available in requirements.txt.
+
+### Running the code
+
+First, store the training image in `inputs` as x.jpg and its corresponsing training binary mask as gt_x.jpg in `labels`. Then, place the target mask(s) as target#num_x.jpg in `labels`. #num can be any number, e.g., target1_x.jpg, target2_x.jpg, etc.
+
+Finally run the below code:
+
+`
+python train.py --gpu 5 --save_prefix results_ --mode synthesis --target_prefix #num --setting_id 2 --pre_w resnet50-l2-eps0.05.ckpt --file_name x
+`
+
+
+
 This repository is in its initial stage, please report bugs to rouhseda@usc.edu
 
 Thanks~
