@@ -36,7 +36,6 @@ Finally run the below code:
 python train.py --gpu 5 --save_prefix results_ --mode synthesis --target_prefix #num --setting_id 2 --pre_w resnet50-l2-eps0.05.ckpt --file_name x
 `
 
-
 ___
 This repository is in its initial stage, please report bugs to rouhseda@usc.edu
 
