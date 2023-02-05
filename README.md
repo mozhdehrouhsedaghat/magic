@@ -29,7 +29,7 @@ The version of all other required libraries is available in requirements.txt.
 ### Before running the code
 
 Download an adversarrilly robust classifier from [here](https://github.com/microsoft/robust-models-transfer#download-our-robust-imagenet-models) and store it in the magic folder.
-For MAGIC results we have used a ResNet-50 with ε=0.05.
+For MAGIC results we have used an L2-robust ResNet-50 with ε=0.05.
 
 ### Running the code
 
