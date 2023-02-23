@@ -33,7 +33,7 @@ For MAGIC results we have used an L2-robust ResNet-50 with ε=0.05.
 
 ### Running the code
 
-First, store the training image in `inputs` as x.jpg and its corresponsing training binary mask as gt_x.jpg in `labels`. Then, place the target mask(s) as target#num_x.jpg in `labels`. #num can be any number, e.g., target1_x.jpg, target2_x.jpg, etc.
+First, store the training image in `input_images` as x.jpg and its corresponsing training binary mask as gt_x.jpg in `labels`. Then, place the target mask(s) as target#num_x.jpg in `labels`. #num can be any number, e.g., target1_x.jpg, target2_x.jpg, etc.
 
 Finally run the below code:
 
