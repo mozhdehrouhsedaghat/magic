@@ -3,7 +3,7 @@
 
 Official Pytorch implementation of the following paper (will be uploaded soon):
 
-+ Rouhsedaghat M, Monajatipoor M, Kuo CC, Masi I. [MAGIC: Mask-Guided Image Synthesis by Inverting a Quasi-Robust Classifier](https://arxiv.org/abs/2209.11549). AAAI23
++ Rouhsedaghat M, Monajatipoor M, Kuo CC, Masi I. [MAGIC: Mask-Guided Image Synthesis by Inverting a Quasi-Robust Classifier](https://arxiv.org/abs/2209.11549) In Proceedings of AAAI Conference on Artificial Intelligence **AAAI-23**.
 
 ___
 
@@ -40,7 +40,18 @@ Finally run the below code:
 `
 python train.py --gpu 5 --save_prefix results_ --mode synthesis --target_prefix #num --setting_id 2 --pre_w resnet50-l2-eps0.05.ckpt --file_name x
 `
+### Reference and Citation
 
+If you find our method useful, please cite our paper by using the following bibtex item:
+
+```bibtex
+@inproceedings{rouhsedaghat2023magic,
+  title={{M}{A}{G}{I}{C}: {M}ask-{G}uided {I}mage {S}ynthesis by {I}nverting a {Q}uasi-{R}obust {C}lassifier},
+  author={Rouhsedaghat, Mozhdeh and Monajatipoor, Masoud and Kuo, C-C Jay and Masi, Iacopo},
+  booktitle={In Proceedings of AAAI Conference on Artificial Intelligence},
+  year={2023}
+}
+```
 ___
 This repository is in its initial stage, please report bugs to rouhseda@usc.edu
 
