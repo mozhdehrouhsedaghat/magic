@@ -37,9 +37,15 @@ First, store the training image in `input_images` as x.jpg and its corresponsing
 
 Finally run the below code:
 
-`
-python train.py --gpu 5 --save_prefix results_ --mode synthesis --target_prefix #num --setting_id 2 --pre_w resnet50-l2-eps0.05.ckpt --file_name x
-`
+```bash
+python train.py --gpu 5 \
+                --save_prefix results_ \
+                --mode synthesis \
+                --target_prefix #num \
+                --setting_id 2  \ 
+                --pre_w resnet50-l2-eps0.05.ckpt \
+                --file_name x
+```
 ### Reference and Citation
 
 If you find our method useful, please cite our paper by using the following bibtex item:
