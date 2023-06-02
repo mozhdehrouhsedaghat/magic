@@ -52,7 +52,7 @@ If you find our method useful, please cite our paper by using the following bibt
 
 ```bibtex
 @inproceedings{rouhsedaghat2023magic,
-  title={{M}{A}{G}{I}{C}: {M}ask-{G}uided {I}mage {S}ynthesis by {I}nverting a {Q}uasi-{R}obust {C}lassifier},
+  title={  {M}{A}{G}{I}{C}: {M}ask-{G}uided {I}mage {S}ynthesis by {I}nverting a {Q}uasi-{R}obust {C}lassifier},
   author={Rouhsedaghat, Mozhdeh and Monajatipoor, Masoud and Kuo, C-C Jay and Masi, Iacopo},
   booktitle={In Proceedings of AAAI Conference on Artificial Intelligence},
   year={2023}
